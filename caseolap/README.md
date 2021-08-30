@@ -82,6 +82,7 @@ python run_caseolap_score.py
 
 
 ***Additional Notes***
+
 Runner
 - This is the main place to run all the steps in the CaseOLAP pipeline (including the modified steps such as removing text documents which are in multiple categories). Also, many downstream analyses can be run in this runner (analyses in the Analyses folder). That data is stored in the Analyses folder with notebook versions of the .py scripts run for the analyses too. 
 
