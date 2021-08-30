@@ -1,0 +1,94 @@
+descendent MeSH terms are being collected.... 
+=================================================== 
+LHON : includes decendents {'Optic Atrophy, Hereditary, Leber'}
+MELAS : includes decendents {'MELAS Syndrome'}
+ADOA : includes decendents {'Optic Atrophy, Autosomal Dominant'}
+Leigh : includes decendents {'Leigh Disease'}
+MERRF : includes decendents {'MERRF Syndrome'}
+KSS : includes decendents {'Kearns-Sayre Syndrome'}
+Alpers : includes decendents {'Diffuse Cerebral Sclerosis of Schilder'}
+LBSL : includes decendents {'Leukodystrophy, Metachromatic'}
+PDD : includes decendents {'Pyruvate Dehydrogenase Complex Deficiency Disease'}
+PEO : includes decendents {'Ophthalmoplegia, Chronic Progressive External'}
+MS : includes decendents {'Multiple Sclerosis', 'Multiple Sclerosis, Chronic Progressive', 'Multiple Sclerosis, Relapsing-Remitting'}
+Parkin : includes decendents {'Parkinson Disease'}
+ALS : includes decendents {'Amyotrophic Lateral Sclerosis'}
+AD : includes decendents {'Alzheimer Disease'}
+Epil : includes decendents {'Epilepsy, Reflex', 'Myoclonic Epilepsy, Juvenile', 'Epilepsy, Partial, Sensory', 'Nodding Syndrome', 'Epilepsy, Complex Partial', 'Sudden Unexpected Death in Epilepsy', 'Epilepsy, Generalized', 'Epilepsy, Partial, Motor', 'Landau-Kleffner Syndrome', 'Epilepsy, Frontal Lobe', 'Epilepsy, Post-Traumatic', 'Myoclonic Epilepsies, Progressive', 'Epilepsies, Partial', 'Epileptic Syndromes', 'Lafora Disease', 'Epilepsy, Rolandic', 'Epilepsy, Absence', 'Epilepsies, Myoclonic', 'Epilepsy, Benign Neonatal', 'Drug Resistant Epilepsy', 'Epilepsy, Tonic-Clonic', 'Lennox Gastaut Syndrome', 'Epilepsy', 'Unverricht-Lundborg Syndrome', 'Spasms, Infantile', 'Epilepsy, Temporal Lobe'}
+Schiz : includes decendents {'Schizophrenia, Disorganized', 'Shared Paranoid Disorder', 'Schizophrenia, Paranoid', 'Schizophrenia, Catatonic', 'Schizophrenia'}
+FA : includes decendents {'Friedreich Ataxia'}
+HSP : includes decendents {'Spastic Paraplegia, Hereditary'}
+WD : includes decendents {'Hepatolenticular Degeneration'}
+Textcube cell to PMID mapping is being created.... 
+ ========================================== 
+1000MeSH descriptors analysed for textcube...! 
+2000MeSH descriptors analysed for textcube...! 
+3000MeSH descriptors analysed for textcube...! 
+4000MeSH descriptors analysed for textcube...! 
+5000MeSH descriptors analysed for textcube...! 
+6000MeSH descriptors analysed for textcube...! 
+7000MeSH descriptors analysed for textcube...! 
+8000MeSH descriptors analysed for textcube...! 
+9000MeSH descriptors analysed for textcube...! 
+10000MeSH descriptors analysed for textcube...! 
+11000MeSH descriptors analysed for textcube...! 
+12000MeSH descriptors analysed for textcube...! 
+13000MeSH descriptors analysed for textcube...! 
+14000MeSH descriptors analysed for textcube...! 
+15000MeSH descriptors analysed for textcube...! 
+16000MeSH descriptors analysed for textcube...! 
+17000MeSH descriptors analysed for textcube...! 
+18000MeSH descriptors analysed for textcube...! 
+19000MeSH descriptors analysed for textcube...! 
+20000MeSH descriptors analysed for textcube...! 
+21000MeSH descriptors analysed for textcube...! 
+22000MeSH descriptors analysed for textcube...! 
+23000MeSH descriptors analysed for textcube...! 
+24000MeSH descriptors analysed for textcube...! 
+25000MeSH descriptors analysed for textcube...! 
+26000MeSH descriptors analysed for textcube...! 
+27000MeSH descriptors analysed for textcube...! 
+28000MeSH descriptors analysed for textcube...! 
+29000MeSH descriptors analysed for textcube...! 
+Cell - LHON : includes 1004 documents. --> 889documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 115889All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - MELAS : includes 1328 documents. --> 1054documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 2741054All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - ADOA : includes 295 documents. --> 248documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 47248All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - Leigh : includes 1087 documents. --> 921documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 166921All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - MERRF : includes 375 documents. --> 171documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 204171All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - KSS : includes 671 documents. --> 532documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 139532All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - Alpers : includes 2359 documents. --> 1977documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 3821977All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - LBSL : includes 1232 documents. --> 1092documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 1401092All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - PDD : includes 395 documents. --> 329documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 66329All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - PEO : includes 566 documents. --> 442documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 124442All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - MS : includes 60193 documents. --> 58108documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 208558108All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - Parkin : includes 68369 documents. --> 62745documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 562462745All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - ALS : includes 19423 documents. --> 17897documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 152617897All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - AD : includes 96719 documents. --> 91428documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 529191428All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - Epil : includes 112938 documents. --> 110195documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 2743110195All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - Schiz : includes 106089 documents. --> 103563documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 2526103563All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - FA : includes 2582 documents. --> 2424documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 1582424All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - HSP : includes 1386 documents. --> 1306documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 801306All good? (self.cell2pmid == L, i.e. object == variable): True
+Cell - WD : includes 5882 documents. --> 5611documents exclusively containing MeSH terms for this disease and not any of the other disease categories of interest. 
+Removed 2715611All good? (self.cell2pmid == L, i.e. object == variable): True
+Textcube PMID to cell mapping is being created.... 
+============================================== 
+Textcube cell statistics is being created.... 
+================================================ 

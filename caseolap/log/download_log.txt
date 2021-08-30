@@ -1,0 +1,2 @@
+Return code of downloading pubmed baseline files via wget is 2, not zero.
+Link: ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline/
