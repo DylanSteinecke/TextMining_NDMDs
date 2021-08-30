@@ -1,0 +1,18 @@
+This is the output for the PCA.
+
+
+Both, Primary, and Secondary:
+-'Both' files correspond to the results from the analyses on both classes of diseases: Primary and Secondary Mitochondrial Diseases
+-'Primary' files correspond to the results from the analyses on 'Primary Mitochondrial Diseases' (i.e. diseases directly caused by the mitochondria, namely mutations in mitochondrial DNA)
+-'Secondary' files correspond to the results from the analyses on 'Secondary Mitochondrial Diseases' (i.e. diseases not directly caused by the mitochondria, namely, not mutations in mitochondrial DNA)
+
+
+PCA:
+- 'Biplot' files are PCAs
+- 'Labeled Biplot' files are PCAs with individual points labeled with their UniProt protein ID. This is useful for inspecting outlier points/proteins.
+-'Weights' files show the detailed breakdown of each dimension from the PCA, namely the weights. 
+
+
+Clustering on PCA:
+-'K-Means-on-PCA-Vector-Heads' is the results from running K-means on the end points of the 19 disease vectors from the PCA. 
+-'Agglomerative-Clustering-on-PCA-Vector-Heads' is the results from running Agglomerative Clustering on the end points of the 19 disease vectors from the PCA. 

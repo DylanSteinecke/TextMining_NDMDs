@@ -1,0 +1,12 @@
+1) Text_Cube_Analyses_Data.ipynb
+Runs various analyses detailing the Text Cube document information and the text document information. See folder and notebook for more detail.
+
+
+2) stats_on_full_text_and_abstracts_pmids.py
+This provides statistics about how many of the text documents under study here have full_text (not just a title, abstract, etc.) and, separately, on how many have abstracts. The analyses are also performed on the text documents which had entities found in them.  Note: The input file must be changed to either refer to the local caseolap/data/pubmed.json or another file. (NOTE for if running on original server: The current local one does not have full_text (although, very few files provide accessible full text anyway.)) Largely based on a script by Vladimir Guevara. 
+
+3) Data
+The output for (1) and (2)
+
+4) check_entity_name_list.py
+The first API file used protein names/synonyms from MitoCarta and human UniProt names. The second API file used those names plus comparable nonhuman proteins (and also removed proteins with bad names (e.g., acronyms which are too short and would thus be too ambiguous)). This file checks to make sure that all the protein names from the first list were successfully added to the second list. If a name is missing, the ID and name will be printed. 
