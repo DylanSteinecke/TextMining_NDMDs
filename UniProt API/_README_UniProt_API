@@ -1,0 +1,39 @@
+1) UniProt_API_Human_Protein_Names.ipynb
+- Input: Human.MitoCarta3.0.csv
+- Output: MitoCarta.json, MitoCarta.csv, MitoCartaOnlyProteins.txt
+- Reads in UniProt ID and names from MitoCarta (symbol, description, synonyms) and assigns them to the UniProt ID. 
+- Uses the API to find more names from UniProt. It also updates the IDs for any deprecated IDs. If an old ID is actually now considered two different IDs, a new row is created and the UniProt names alone are used for them. If an old ID is actually now considered the same ID as another protein in the list, those rows are combined. 
+
+2) UniProt-UniRef-UniParc_API_Human_and_Nonhuman_Protein_Names.ipynb
+- Input: MitoCarta.json, UniRef Master List 1135.csv
+- Output: df_uniref.json, MitoProteins.txt
+- Produces df_uniref.json (__). This main section of the API can be used interchangeably (with minor modifications, namely the input file).
+- This file also contains further analyses customized for this project, but which can be modified to work with other UniProt-based projects such as stats on how many proteins came from the original MitoCarta list, human UniProt entries, and nonhuman UniProt entries (average per protein, duplicate synonyms within rows if any, unique synonyms / total synonyms among all rows, unique synonyms / total synonyms among all rows excluding variations in cAsE, and how many unique synonyms were provided by the human UniProt when added to the MitoCarta ones and how many were provided by the nonhuman UniProt when added to the human + MitoCarta. It filters the
+
+
+3) UniRef Master List 1135.csv
+- This table maps the human UniProt ID to its comparable nonhuman proteins. The tables comprising this table had to be taken from proteins submitted and then downloaded in 250 protein increments. They were manually appended to each other in Excel and then made this table. 
+Source: https://www.uniprot.org/uploadlists/
+
+4) MitoProteins.txt
+- The file storing the synonyms from MitoCarta, human UniProt, and nonhuman UniProt. This was used by CaseOLAP.
+
+
+5) MitoCartaOnlyProteins.txt
+- The file storing the synonyms only from MitoCarta and human UniProt. This can be used by CaseOLAP.
+
+
+6) MitoCarta.json
+-The .json table version of the updated protein IDs and names (from MitoCarta and UniProt)
+ 
+
+7) MitoCarta.csv
+-The .csv table version of the updated protein IDs and names (from MitoCarta and UniProt)
+
+ 
+8) Human.MitoCarta3.0.csv
+-The file from MitoCarta3.0 (Sept 2020) for all mitochondrial proteins (i.e. proteins that are believed to be in the mitochondria regardless of their origin). 
+ 
+ 
+9) df_uniref.json
+This is the detailed dataframe storing information on the human proteins and the comparable/'equivalent' nonhuman proteins. Each row has the human UniProt ID, human synonyms, nonhuman UniProt IDs, nonhuman protein synonyms, all synonyms, and a detailed nonhuman dictionary (connects species to UniProt ID, synonyms, finds the new ID if the submitted version is deprecated, and indicates if the ID was replaced).

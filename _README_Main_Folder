@@ -1,0 +1,8 @@
+1) caseolap
+This is the main folder for performing text mining (CaseOLAP) and other analyses on that data.
+
+2) Knowledge Graph
+This is for creating the data files necessary to analyze the relationships between the clustered proteins and pathways. The data files can be used to create a knowledge graph in Neo4j or to visualize the results in tables in Python. 
+
+3) UniProt API
+The APIs to get the synonyms of all the entities (i.e. proteins) from UniProt and its various resources (i.e. UniProt, UniRef, UniParc)
